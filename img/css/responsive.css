@@ -1,0 +1,77 @@
+/* For Smartphone */
+@media only screen and (max-width: 768px) {
+  nav .container .navbar-nav {
+    display: none;
+  }
+
+  nav .container .res {
+    display: block;
+    margin-right: 1rem;
+  }
+
+  nav .container .navbar-nav {
+    width: 100%;
+  }
+
+  nav .container .navbar-nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav .container .navbar-nav ul li {
+    margin-bottom: 1rem;
+  }
+
+  section .hero video {
+    height: 100vh;
+    object-fit: cover;
+  }
+
+  .biografi .container {
+    margin: 0 1rem;
+  }
+
+  .biografi .deskripsi .space {
+    text-align: justify;
+  }
+
+  .schedule .container {
+    margin: 1rem 1rem;
+  }
+
+  .schedule .container h1 {
+    margin-bottom: 1rem;
+  }
+
+  .schedule .container .cards .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .etalase .container {
+    margin: 1rem;
+  }
+
+  .etalase .container h1 {
+    margin-bottom: 1rem;
+  }
+
+  .etalase .container .products .product:last-child {
+    margin-bottom: 2rem;
+  }
+
+  footer .container {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  footer .container .info img {
+    margin-right: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  nav .container .navbar-nav {
+    display: block !important;
+  }
+}
